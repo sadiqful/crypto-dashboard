@@ -21,5 +21,10 @@ body, button, input {
   font-family: 'Raleway', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  background-color: #dcf2f8;
+  width: 0.5rem;
+}
+
 
 
