@@ -26,5 +26,8 @@ body::-webkit-scrollbar {
   width: 0.5rem;
 }
 
-
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+}
 
