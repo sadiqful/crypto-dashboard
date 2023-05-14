@@ -29,12 +29,37 @@ export default function Navbar() {
     );
 }
 
-const Nav = styled.Nav`
+const Nav = styled.vav`
 
     .user {
         span {
         color: var(--primary-text); 
         }
     }
+
+    .search-container {
+        background-color: var(--bg-color);
+        color: var(--light-text);
+        padding: 0 2 rem;
+    input {
+        border: none;
+        width: 20rem;
+        font-size: 1.1rem;
+    &::placeholder {
+        color: var(--light-text);
+        text-transform: capitalize;
+    }
+    &:focus {
+       outline: none; 
+    }
+  }
+}   
+.profile {
+    .notification {
+      padding: 1rem;
+      background-color: var(--bg-color);
+      border-radius: 0.5rem;  
+    }
+}
 
 `;
