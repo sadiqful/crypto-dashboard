@@ -28,3 +28,13 @@ export default function Navbar() {
       </Nav>  
     );
 }
+
+const Nav = styled.Nav`
+
+    .user {
+        span {
+        color: var(--primary-text); 
+        }
+    }
+
+`;
