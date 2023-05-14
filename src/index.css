@@ -35,3 +35,42 @@ body::-webkit-scrollbar-thumb {
   border-radius: 2rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.gap {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.b-rad-1 {
+  border-radius: 1rem;
+}
+
+.card-padding {
+  padding: 1rem 2rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
