@@ -1,10 +1,11 @@
 import React from 'react';
-import './index.css';
+import styled from "styled-components"
 
 export default function App() {
   return (
-    <div className="App">
-      <h3>Hello World</h3>
-    </div>
+    <Container>
+    </Container>
   );
 }
+
+const Container = styled.div``;
