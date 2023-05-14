@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body, button, input {
   font-family: 'Raleway', sans-serif;
 }
