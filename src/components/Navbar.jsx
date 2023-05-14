@@ -29,7 +29,7 @@ export default function Navbar() {
     );
 }
 
-const Nav = styled.vav`
+const Nav = styled.nav`
 
     .user {
         span {
