@@ -6,7 +6,7 @@ import bell from "../assets/bell.png";
 
 export default function Navbar() {
     return (
-      <nav className="flex j-between">
+      <Nav className="flex j-between">
         <div className="user">
             <h2>Hello Aliyu Abubakar</h2>
             <span>{new Date()}</span>
@@ -25,6 +25,6 @@ export default function Navbar() {
             <img src={avatar} alt="Avatar" className="avatar" />
         </div>
 
-      </nav>  
+      </Nav>  
     );
 }
