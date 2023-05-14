@@ -11,6 +11,12 @@ export default function Navbar() {
             <h2>Hello Sadiq</h2>
             <span>{new Date()}</span>
         </div>
+
+        <div className="search-container flex a-center j-center gap b-rad-1 ">
+           <BsSearch/> 
+           <input type="text" placeholder="search" />
+        </div>
+
       </nav>  
     );
 }
