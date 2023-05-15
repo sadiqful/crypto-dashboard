@@ -6,11 +6,14 @@ import bell from "../assets/bell.png";
 
 
 export default function Navbar() {
+
+    const date = new Date();
+
   return (
     <Nav className="flex j-between">
       <div className="user">
-        <h2>Hello Kishan Sheth</h2>
-        <span>Mar 20 2022</span>
+        <h2>Hello Aliyu A. </h2>
+        <span>May 15 2023</span>
       </div>
 
       <div className="search-container flex a-center j-center gap b-rad-1">
@@ -22,7 +25,7 @@ export default function Navbar() {
         <div className="notification">
           <img src={bell} alt="Bell" />
         </div>
-        <h4>Kishan Sheth</h4>
+        <h4>Aliyu Abubakar</h4>
         <img src={avatar} alt="avatar" className="avatar" />
       </div>
     </Nav>
