@@ -2,10 +2,10 @@
 
 Crypto Currency Dashboard using the following tools;
 
-React
-Styled Components
-Recharts
-React icons 
+- React
+- Styled Components
+- Recharts
+- React icons 
 
 ## Get Started
 
