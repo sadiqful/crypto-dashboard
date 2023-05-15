@@ -1,4 +1,6 @@
-#Web3 Crypto Currency Dashboard using the following tools;
+## Project Description
+
+Crypto Currency Dashboard using the following tools;
 
 React
 Styled Components
